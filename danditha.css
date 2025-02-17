@@ -1,0 +1,305 @@
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+        transform:translateY(20px);
+        background-color: rgb(236, 64, 51);
+
+    }
+    to {
+        opacity: 1;
+        transform:translateY(0);
+        
+    }
+     }
+@keyframes fadeInFooter{
+    from{
+        opacity: 0%;
+        transform:translateY(20px);
+        background-color: white;
+    }
+    to {
+        opacity: 1;
+        transform:translateY(0);
+        
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+footer{
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    padding:30px;
+    background-color:rgb(236, 64, 51);
+    border-top:solid;
+    border-color: white;
+    animation: fadeInFooter 1.5s ease-in-out;
+    align-items: center;
+    color: white;
+    
+
+}
+.formcontato{
+    background-color: white;
+    color: rgb(236, 64, 51);
+    padding: 70px;
+    margin-top: 5%;
+    border: solid;
+    border-color: rgb(236, 64, 51);
+    border-radius: 20px;
+    margin-left: 15%;
+    margin-right: 10%;
+    
+}
+.contatorodape{
+    margin-left: 50%;
+    margin-top: -7%;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 50%;
+    margin-left: 23%;
+
+}
+input{
+    border-radius: 10px;
+    border: outset;
+    color: white;
+    background-color: rgb(236, 64, 51);
+    
+    }
+textarea{
+    border-radius: 10px;
+    border: outset;
+    color: white;
+    background-color: rgb(236, 64, 51);
+    width: 95%;  
+    height: 55px; 
+    padding: 10px;
+    font-size: 16px; 
+    display: block;
+    resize: none;
+
+}
+button{
+    font-family: "Montserrat";
+    width: 15%;
+    margin-top: 5%;
+    margin-left: 41%;
+    background-color: white;
+    border: solid;
+    border-color: rgb(236, 64, 51);
+    border-radius: 15px;
+    transition: background-color 1.5s, transform 0.2s;
+    cursor: pointer;
+    color: rgb(236, 64, 51);
+    }
+
+button:hover {
+    box-shadow: 0 0 0 4px;
+    background-color: rgb(236, 64, 51);
+    transition: 1.5s all;
+    color: white;
+}
+.textozap{
+    font-size:30px;
+}
+.zap{
+    margin-left: 42%;
+    transition: all 0.3s ease-in-out;
+}
+.zap:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba (0,0,0, 0.5);
+    opacity: 0.5
+}
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 5%;
+    margin-right: 30%;
+    margin-left:30%;
+    animation: fadeIn 1.5s ease-in-out forwards;
+    border-radius: 20px;
+   
+}
+video {
+    width: 300px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(236, 64, 51);
+   
+     }
+.textovideo h1{
+    border-bottom:solid;
+    border-color: rgb(236, 64, 51)
+}
+.quemsomos{
+    background-color: white;
+    padding: 20%;
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+.tituloquemsomos {
+    border-bottom: solid;
+    border-color: rgb(236, 64, 51);
+}
+
+    
+header{
+   background-color: white;
+   padding: 10px;
+   border-bottom:solid 4px;
+   border-radius: 5px;
+   border-color: rgb(236, 64, 51);
+   box-shadow: 10px 10px 10px 10px black;
+   animation: fadeIn 1.5s ease-in-out forwards;
+   position:relative;
+
+   
+ }
+ .cabecalho {
+    align-items: center;
+    justify-content: space-between;
+    
+
+ }
+.cabecalho ul{
+    display:inline-flex;
+    list-style: none;
+    
+    text-align: center;
+
+    
+    
+}
+.imagens{
+    list-style: none;
+    display: inline-flex;
+}
+#imagem1{
+    width: 250px;
+    
+}
+#imagem2{
+    width: 250px;
+}
+#imagem3{
+    width:250px;
+}
+#logo{
+    width: 250px;
+   
+    
+}
+nav li{
+    margin-right:20%;
+    color: rgb(82, 84, 86);
+    
+
+}
+ul li a{ 
+    text-decoration: none;
+    border-radius: 15px;
+    color: rgb(82, 84, 86); 
+    transition: 1.5s;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(82, 84, 86);
+    border-radius: 15px;
+}
+nav a:hover{
+    box-shadow: 0 0 0 4px;
+    background-color: rgb(236, 64, 51);
+    transition: 1.5s all;
+    color: white;
+    text-decoration: none;
+}
+#li1{
+    font-size: 35px;
+    position: relative;
+    margin-top: 20px;
+    white-space: nowrap;
+    
+}
+#li2{
+    font-size: 35px;
+    position: relative;
+    margin-top: 20px;
+    
+}
+#li3{
+    font-size: 35px;
+    position: relative;
+    margin-top: 20px;
+}
+.quemsomos{
+    border-radius: 20px;
+    border-top: solid;
+    border-color:rgb(236, 64, 51);
+}
+    
+#fdedicado{
+    width: 100px;
+    border-left: solid;
+    border-color: rgb(236, 64, 51);
+
+
+}
+#descarga{
+    width: 100px;
+    border-left: solid;
+    border-color: rgb(236, 64, 51);
+}
+#funcionario{
+    width: 100px;
+    border-left: solid;
+    border-color: rgb(236, 64, 51)
+}
+
+.servicos ul li{
+    list-style: none;
+    display: flex;
+    align-items:center
+    
+}
+.mapa{
+    margin-top:20%;
+}
+.mapa h1{
+    font-size: 4rem;
+    color:rgb(236, 64, 51);
+    margin-left: 18%;
+    
+}
+#mapa{
+    width: 700px;
+    margin-left: 5%;
+}
+.parceiros{
+    border-top:solid;
+    border-color:rgb(236, 64, 51);
+    border-radius:10px;
+    margin-top: 10%;
+    
+}
+
+#opclientes{
+    width: 100%
+    
+}
