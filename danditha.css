@@ -1,0 +1,444 @@
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+        transform:translateY(20px);
+        background-color: rgb(236, 64, 51);
+
+    }
+    to {
+        opacity: 1;
+        transform:translateY(0);
+        
+    }
+     }
+@keyframes fadeInFooter{
+    from{
+        opacity: 0%;
+        transform:translateY(20px);
+        background-color: white;
+    }
+    to {
+        opacity: 1;
+        transform:translateY(0);
+        
+    }
+}
+html{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    padding: 0;
+    height: 100%;
+    max-width:max-content
+}
+footer{
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    padding:30px;
+    background-color:rgb(236, 64, 51);
+    border-top:solid;
+    border-color: white;
+    animation: fadeInFooter 1.5s ease-in-out;
+    align-items: center;
+    color: white;
+    
+
+}
+
+
+.formcontato{
+    background-color: white;
+    color: rgb(236, 64, 51);
+    padding: 70px;
+    margin-top: 5%;
+    border: solid;
+    border-color: rgb(236, 64, 51);
+    border-radius: 20px;
+    margin-left: 15%;
+    margin-right: 10%;
+    
+}
+.contatorodape{
+    margin-left: 50%;
+    margin-top: -7%;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 50%;
+    margin-left: 23%;
+
+}
+input{
+    border-radius: 10px;
+    border: outset;
+    color: white;
+    background-color: rgb(236, 64, 51);
+    
+    }
+textarea{
+    border-radius: 10px;
+    border: outset;
+    color: white;
+    background-color: rgb(236, 64, 51);
+    width: 95%;  
+    height: 55px; 
+    padding: 10px;
+    font-size: 16px; 
+    display: block;
+    resize: none;
+
+}
+button{
+    font-family: "Montserrat";
+    width: 15%;
+    margin-top: 5%;
+    margin-left: 41%;
+    background-color: white;
+    border: solid;
+    border-color: rgb(236, 64, 51);
+    border-radius: 15px;
+    transition: background-color 1.5s, transform 0.2s;
+    cursor: pointer;
+    color: rgb(236, 64, 51);
+    }
+
+button:hover {
+    box-shadow: 0 0 0 4px;
+    background-color: rgb(236, 64, 51);
+    transition: 1.5s all;
+    color: white;
+}
+.textozap{
+    font-size:30px;
+}
+.zap{
+    margin-left: 42%;
+    transition: all 0.3s ease-in-out;
+}
+.zap:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba (0,0,0, 0.5);
+    opacity: 0.5
+}
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 5%;
+    margin-right: 30%;
+    margin-left:30%;
+    animation: fadeIn 1.5s ease-in-out forwards;
+    border-radius: 20px;
+   
+}
+video {
+    width: 300px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(236, 64, 51);
+   
+     }
+.textovideo h1{
+    border-bottom:solid;
+    border-color: rgb(236, 64, 51)
+}
+.quemsomos{
+    background-color: white;
+    padding: 10%;
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+.tituloquemsomos {
+    border-bottom: solid;
+    border-color: rgb(236, 64, 51);
+}
+
+    
+header{
+   background-color: white;
+   padding: 10px;
+   border-bottom:solid 4px;
+   border-radius: 5px;
+   border-color: rgb(236, 64, 51);
+   box-shadow: 10px 10px 10px 10px black;
+   animation: fadeIn 1.5s ease-in-out forwards;
+   position:sticky;
+
+   
+ }
+ .cabecalho {
+    align-items: center;
+    justify-content: space-between;
+    
+
+ }
+.cabecalho ul{
+    display:inline-flex;
+    list-style: none;
+    
+    text-align: center;
+
+    
+    
+}
+.imagens{
+    list-style: none;
+    display: inline-flex;
+}
+#imagem1{
+    width: 250px;
+    
+}
+#imagem2{
+    width: 250px;
+}
+#imagem3{
+    width:250px;
+}
+#logo{
+    width: 250px;
+   
+    
+}
+nav li{
+    margin-right:20%;
+    color: rgb(82, 84, 86);
+    
+
+}
+ul li a{ 
+    text-decoration: none;
+    border-radius: 15px;
+    color: rgb(82, 84, 86); 
+    transition: 1.5s;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(82, 84, 86);
+    border-radius: 15px;
+}
+nav a:hover{
+    box-shadow: 0 0 0 4px;
+    background-color: rgb(236, 64, 51);
+    transition: 1.5s all;
+    color: white;
+    text-decoration: none;
+}
+#li1{
+    font-size: 2.5rem;
+    position: relative;
+    margin-top: 20px;
+    white-space: nowrap;
+    
+}
+#li2{
+    font-size: 2.5rem;
+    position: relative;
+    margin-top: 20px;
+    
+}
+#li3{
+    font-size: 2.5rem;
+    position: relative;
+    margin-top: 20px;
+}
+.quemsomos{
+    border-radius: 20px;
+    border-top: solid;
+    border-color:rgb(236, 64, 51);
+}
+    
+#fdedicado{
+    width: 100px;
+    border-left: solid;
+    border-color: rgb(236, 64, 51);
+
+
+}
+#descarga{
+    width: 100px;
+    border-left: solid;
+    border-color: rgb(236, 64, 51);
+}
+#funcionario{
+    width: 100px;
+    border-left: solid;
+    border-color: rgb(236, 64, 51)
+}
+
+.servicos ul li{
+    list-style: none;
+    display: flex;
+    align-items:center
+    
+}
+.mapa{
+    margin-top:20%;
+    align-items: center;
+}
+.mapa h1{
+    font-size: 4rem;
+    color:rgb(236, 64, 51);
+    
+    
+}
+#mapa{
+    width: 700px;
+    align-items: center;
+}
+.parceiros{
+    border-top:solid;
+    border-color:rgb(236, 64, 51);
+    border-radius:10px;
+    margin-top: 10%;
+    
+}
+
+#opclientes{
+    width: 100%
+    
+}
+.topo{
+    margin-top: 15%;
+    font-size: 1rem;
+    margin-left: 34%;
+}
+.topo a{
+    color: rgb(236, 64, 51);
+    text-decoration: none;
+}
+.topo a:hover{
+    text-decoration: underline;
+}
+/* Estilos responsivos */
+@media screen and (max-width: 1024px) {
+    .formcontato {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 40px;
+    }
+    
+    form {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    button {
+        width: 50%;
+        margin-left: 25%;
+    }
+    
+    .container {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    video {
+        width: 100%;
+    }
+    
+    .imagens {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .imagens li {
+        margin-bottom: 10px;
+    }
+    
+    #mapa {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .mapa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .mapa h1 {
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    #mapa {
+        display: block;
+        margin: 0 auto;
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cabecalho ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+        font-size: 1.5rem;
+    }
+    
+    .servicos ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .servicos ul li {
+        display: block;
+        margin-bottom: 20px;
+    }
+    
+    .mapa h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .formcontato {
+        padding: 20px;
+    }
+    
+    form {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    button {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .mapa h1 {
+        font-size: 1.5rem;
+    }
+}
