@@ -35,9 +35,16 @@ body{
     max-width:max-content;
     animation: fadeIn 1.5s forwards;
     overflow-x: hidden;
-    max-width: 100%;     
+    max-width: 100%;   
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(8px); /* Ajuste o valor para mais ou menos desfoque */
+    animation: fadeIn 2.5s forwards;
+    
+}  
    
-}
+
 footer{
     bottom: 0;
     position: relative;
@@ -152,7 +159,7 @@ button:hover {
    
 }
 video {
-    width: 300px; 
+    width: 500px; 
     border-radius: 10px;
     border: solid;
     border-color: rgb(236, 64, 51);
@@ -168,10 +175,10 @@ video {
     animation: fadeIn 1.5s ease-in-out forwards;
     margin-top: 35%;
     margin:0;
-    border-radius: 20px;
     border-top: solid;
     border-color:rgb(236, 64, 51);
     width: 80vw;
+    
     
 }
 .tituloquemsomos {
@@ -325,8 +332,11 @@ header {
     border-color: rgb(236, 64, 51)
 }
 .servicos{
-    margin-left: calc(5% + 65px);
-}
+    margin-left: 0;
+    background-color: white;
+    width: 100%;
+    height: auto;
+ }
 .servicos ul li{
     list-style: none;
     display: flex;
@@ -338,11 +348,14 @@ header {
     align-items: center;
     max-width: 100%;
     overflow: hidden;
+    background-color: white;
+
 }
 .mapa h1{
     font-size: 4rem;
     color:rgb(236, 64, 51);
     margin-left: 30%;
+    background-color: white;
     
     
 }
@@ -467,6 +480,9 @@ header {
         align-items: center;
         justify-content: center;
         text-align: center;
+        border-bottom: solid;
+        border-color: rgb(236, 64, 51);
+        
     }
     
     .mapa h1 {
@@ -478,6 +494,24 @@ header {
         display: block;
         margin: 0 auto;
         max-width: 80%;
+    }
+    .container {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .servicos{
+        width:100vw;
+        display: flex;
+        width: 100%;
+        margin-bottom: -20%;
+        
+        
+    }
+    .servicos ul{
+        margin-left: 9%;
+
     }
 }
 
@@ -515,7 +549,20 @@ header {
         text-align: center;
         margin-left: 0;
     }
-}
+    .slider-container{
+        overflow: hidden;
+        max-width: 100%;
+        height: auto;
+    }
+    .mapa{
+        border-top: solid;
+        border-bottom: solid;
+        border-color: rgb(236, 64, 51);
+         }
+    .mapadanditha{
+        background-image: url(mapadanditha.png);
+    }
+    }
 
 @media screen and (max-width: 480px) {
     .formcontato {
@@ -540,7 +587,23 @@ header {
     .mapa h1 {
         font-size: 1.5rem;
     }
-   
+    .slider{
+        overflow: hidden;
+        max-width: 100%;
+        height: auto;
+    }
+   .slider-container{
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+   }
+   .mapa{
+    border: solid;
+    border-color: rgb(236, 64, 51);
+     }
+   .mapadanditha{
+    background-image: url(mapadanditha.png);
+   }
 }
 /* CSS destinado as classes de sections e script */
 .hidden{
